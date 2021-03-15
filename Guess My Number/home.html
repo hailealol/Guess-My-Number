@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <h2>Guess My Number</h2>
+    <div id="container">
+      <h3 id="highScore">Highscore: 0</h3>
+      <p>Guess a number between 1 and 20:</p>
+      <input id="num" />
+      <button type="button" onclick="submitBtn()" id="submitBtn">Submit</button>
+      <button type="button" onclick="finalScore()" id="scoreBtn">
+        Finalize Score
+      </button>
+      <p id="response"></p>
+      <p id="answer"></p>
+      <p id="yourGuess"></p>
+      <h3 id="numbersGuessed"></h3>
+      <h3 id="scoreCount">Your Score: 0</h3>
+      <hr />
+      <h3 id="correctGuesses">Correctly Guessed: 0/20</h3>
+      <h3 id="totalGuessed">Total Numbers Guessed: 0</h3>
+      <button type="button" onclick="restartBtn()" id="restartBtn">
+        Play Again?
+      </button>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
